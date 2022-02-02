@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -49,6 +50,25 @@ header {
   width: 18px;
   height: 12px;
   color: white;
+}
+
+#mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: green;
+  color: #fff;
+  z-index: 10;
+  padding-top: 100px;
+}
+
+#mobile-nav a {
+  color: red;
+  border-bottom: solid 1px red;
+  padding-bottom: 20px;
 }
 
 main {
